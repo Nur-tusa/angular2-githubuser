@@ -1,0 +1,77 @@
+
+  <div *ngIf="users,repo">
+    <div class="row">
+      <div class="col-md-6">
+      <div div class="view overlay zoom">
+          <div class="users profile " >
+            <img src="{{ users.profile_url }}" >
+            <div class="mask flex-center">
+              <p class="white-text" style="background-color: lightcoral;"><b>profile</b></p>
+          </div>
+          </div>
+   </div>
+      </div>
+
+      <div class="col-md-6">
+
+          <div class="card-body" style="background-color: white;">
+            <h3 class="card-title" >
+              {{ users.login }}
+            </h3>
+            <hr />
+            <div >
+              <p><b>Bio</b> </p>
+              <p>{{ users.bio }}</p>
+            </div>
+            <hr />
+              <div class="col-md-6">
+                <p><b>Followers</b></p>
+                {{ users.tusafollowers }}
+              </div>
+              <div class="col-md-6">
+                <p><b>Following</b></p>
+                {{ users.tusafollowing }}
+              </div>
+             
+            </div>
+          </div>
+        </div>
+   
+  </div>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-6" *ngFor="let repos of userdetails" id="card">
+        <div class="card mt-3">
+
+          <h3 class="text-center">
+            {{repos.name}}
+          </h3>
+
+          <p class="description">
+            {{repos.description}}
+          </p>
+
+          <p>
+            {{repos.language}}
+          </p>
+
+          <div class="card-footer text-center " >
+            <a href="{{ repos.html_url }}" class="btn btn-outline-success" target="_blank">view on GitHub</a>
+          </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="footer">
+    <ul>
+       
+
+    </ul>
+
+  </div>
+
+</div>
