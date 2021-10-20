@@ -1,3 +1,6 @@
+# frontpage
+ <img src="/src/assets/tusa1.png">
+ 
 # live link
  https://nur-tusa.github.io/angular2-githubuser/
 
@@ -5,8 +8,7 @@
 This week2 project in school
 
 github searcher
-# frontpage
- <img src="/src/assets/tusa1.png">
+
 
  
 # project description
