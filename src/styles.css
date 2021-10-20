@@ -3,3 +3,6 @@ body{
     background-image: url(./assets/ba.jpg);
     background-image: repeating-radial-gradient();
 }
+body{
+    text-shadow: violet;
+}
