@@ -9,7 +9,7 @@ github searcher
 
  
 # project description
-this app is for creating github search by the user and view the details of the user
+This app is for creating github search by the user and view the details of the user in the github
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8.
 
