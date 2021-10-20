@@ -2,6 +2,7 @@
  https://nur-tusa.github.io/angular2-githubuser/
 
 # Angular
+This week2 project in school
 
 github searcher
 # frontpage
