@@ -1,7 +1,7 @@
 # live link
  https://nur-tusa.github.io/angular2-githubuser/
 
-# Angula
+# Angular
 
 github searcher
 # frontpage
