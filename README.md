@@ -1,12 +1,14 @@
-# Ang2 
+# live link
+ https://nur-tusa.github.io/angular2-githubuser/
+
+# Angula
+
 github searcher
 # frontpage
  <img src="/src/assets/tusa1.png">
 
- ## live link
- https://nur-tusa.github.io/angular2-githubuser/
-
-## project description
+ 
+# project description
 this app is for creating github search by the user and view the details of the user
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8.
@@ -36,7 +38,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 # copyright 
-only reserved to tusa @company 
+only reserved to tusa @company  only
 
 # support team
 name :  nur-tusa 
